@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Rémi Prince CV</title>
+</head>
+
+<body>
+
+    <!-- HEADER : menu navigation en bas -->
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="#" class="nav__logo">Rémi Prince</a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class='bx bx-home nav__icon'></i>Infos
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#profil" class="nav__link">
+                            <i class='bx bx-user nav__icon'></i>Skills
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class='bx bx-receipt nav__icon'></i>Profil
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#formation" class="nav__link">
+                            <i class='bx bx-book nav__icon'></i>Formations
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#experience" class="nav__link">
+                            <i class='bx bx-briefcase-alt nav__icon'></i></i>Experiences
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#divers" class="nav__link">
+                            <i class='bx bx-link-external nav__icon'></i>Interêts
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-grid-alt'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main bd-container">
+
+        <div class="resume" id="area-cv">
+            <div class="resume__left">
+                <!------------------- Home-------------------------->
+                <section class="home" id="home">
+                    <div class="home__container section bd-grid">
+                        <div class="home__data bd-grid">
+                            <img src="assets/img/xavatar.png" alt="Photo de profil" class="home__img">
+                            <h1 class="home__title">Rémi <b>PRINCE</b></h1>
+                            <h3 class="home__profession">Développeur Web Junior</h3>
+                            <h3 class="home__age">36 ans - Permis B</h3>
+                            <!-- Bouton pour télécharger le Cv-->
+                            <div>
+                                <a download="" href="assets/pdf/ResumeCv.pdf" class="home__button-movil">Download</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="home__address bd-grid">
+                        <span class="home__information">
+                            <i class='bx bx-map home__icon' ></i>
+                            59, Boulevard Gambetta
+                        <br>63400 CHAMALIERES
+                        </span>
+                        <span class="home__information">
+                            <i class='bx bx-envelope home__icon' ></i>remiprince@hotmail.fr
+                        </span>
+                        <span class="home__information">
+                            <i class='bx bx-phone-call home__icon' ></i>06 85 52 63 48
+                        </span>
+                        <span class="home__information">
+                            <a href="https://www.linkedin.com/in/r%C3%A9mi-prince-893508205/" target="_blank" class="social__link">
+                                <i class='bx bxl-linkedin home__icon' ></i> Rémi Prince
+                            </a>
+                        </span>
+                        <span class="home__information">
+                            <a href="https://github.com/rpdev63" target="_blank" class="social__link">
+                                <i class='bx bxl-github home__icon'></i> rpdev63
+                            </a>
+                        </span>
+                    </div>
+
+                    <!-- Changer le thême ----------->
+                    <i class="bx bx-moon change-theme" title="Theme" id="theme-button"></i>
+                    <!-- Générer le pdf ----------->
+                    <i class='bx bx-download pdf' title="Generate PDF" id="download-btn"></i>
+
+                </section>
+
+
+
+
+                <!-----------------------SKILLS------------------------->
+                <section class="skills section " id="skills">
+                    <h2 class="section-title">Skills</h2>
+                    <div class="skills__content bd-grid">
+                        <ul class="skills__data">
+                            <li class="skills__name">
+                                <i class="fa-brands fa-html5 home__icon"></i>HTML
+                            </li>
+                            <li class="skills__name">
+                                <i class="fa-brands fa-css3-alt home__icon"></i>Css
+                            </li>
+                            <li class="skills__name ">
+                                <i class="fa-brands fa-js home__icon "></i>JavaScript
+                            </li>
+                            <li class="skills__name ">
+                                <i class="fa-brands fa-php home__icon "></i></span>PHP
+                            </li>
+                        </ul>
+                        <ul class="skills__data ">
+                            <li class="skills__name ">
+                                <i class="fa-brands fa-angular home__icon "></i>Angular
+                            </li>
+                            <li class="skills__name ">
+                                <i class="fa-brands fa-symfony home__icon "></i>Symfony
+                            </li>
+                            <li class="skills__name ">
+                                <i class="fa-brands fa-bootstrap home__icon "></i>Bootstrap
+                            </li>
+                            <li class="skills__name ">
+                                <i class="fa-brands fa-docker home__icon "></i>Docker
+                            </li>
+
+                        </ul>
+                    </div>
+                </section>
+                <!----------------Profil ------------------->
+                <section class="profil section" id="profil">
+                    <h2 class="section-title">Profil</h2>
+                    <p class="profile__description"> Ancien technicien des télécoms, je me suis orienté ces dernières années dans les métiers de l'informatique. </p>
+                    <p class="profile__description">Passionné par la programmation, j'ai su apprendre les bases du développement en autonomie.</p>
+                    <p class="profile__description"> J'ai aussi complété mes connaissances récemment lors d'une formation sur PHP / Symfony dispensée par Human Booster. </p>
+                    <p class="profile__description"> <span>Calme et autonome,  je suis 
+                         à la recherche d'une première expérience profesionnelle en tant que développeur d'applications web.</span>
+                    </p>
+                </section>
+
+            </div>
+
+
+
+            <div class="resume__right ">
+                <!----------------------Formation ------------------->
+                <section class="experience section " id="formation">
+                    <h2 class="section-title ">Formations / Diplômes</h2>
+
+                    <div class="experience__container bd-grid ">
+                        <div class="experience__content ">
+                            <div class="experience__time ">
+                                <span class="experience__rounder "></span>
+                                <span class="experience__line "></span>
+                            </div>
+
+                            <div class="experience__data bd-grid ">
+                                <h3 class="experience__title ">Formation PHP / Symfony </h3>
+                                <span class="experience__company ">De Novembre 2021 à Février 2022 | Human Booster - Clermont-Ferrand </span>
+                                <p class="experience__description ">Formation intense aboutissant sur un projet de groupe "type entreprise".</p>
+                                <p class="experience__description "><em>Technologies ou sujets abordés : PHP 8, Symfony 6, requêtes SQL, méthode SCRUM, POO, diagrammes MCD, diagrammes de classe, Git / GitHub </em> </p>
+                            </div>
+                        </div>
+                        <div class="experience__content ">
+                            <div class="experience__time ">
+                                <span class="experience__rounder "></span>
+                                <span class="experience__line "></span>
+                            </div>
+
+                            <div class="experience__data bd-grid ">
+                                <h3 class="experience__title ">Autoformation développeur Front-end</h3>
+                                <span class="experience__company "> De 2019 à 2021 </span>
+                                <p class="experience__description "><em>Technologies ou langages appris : HTML5, CSS3, Javascript, Typescript, Angular, Bootstrap</em></p>
+                            </div>
+                        </div>
+                        <div class="experience__content ">
+                            <div class="experience__time ">
+                                <span class="experience__rounder "></span>
+                                <span class="experience__line "></span>
+                            </div>
+
+                            <div class="experience__data bd-grid ">
+                                <h3 class="experience__title ">BTS Optique option Photonique</h3>
+                                <span class="experience__company ">2006 | Lycée Déodat de Séverac - Toulouse </span>
+                            </div>
+                        </div>
+                        <div class="experience__content ">
+                            <div class="experience__time ">
+                                <span class="experience__rounder "></span>
+
+                            </div>
+
+                            <div class="experience__data bd-grid ">
+                                <h3 class="experience__title ">Bac STI Electronique</h3>
+                                <span class="experience__company ">2003 | Lycée Pré de Cordy - Sarlat (Dordogne) </span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+                <!----------------------Experience ------------------->
+                <section class="experience section " id="experience">
+                    <h2 class="section-title ">Experiences profesionnelles</h2>
+
+                    <div class="experience__container bd-grid ">
+                        <div class="experience__content ">
+                            <div class="experience__time ">
+                                <span class="experience__rounder "></span>
+                                <span class="experience__line "></span>
+                            </div>
+
+                            <div class="experience__data bd-grid ">
+                                <h3 class="experience__title ">Technicien réparateur en informatique</h3>
+                                <span class="experience__company ">De 2018 à 2019 | Mains Ouvertes Entreprise - Gerzat </span>
+                                <p class="experience__description ">Préparation ou réparation de PC. Réparation divers matériel multimédias. Vente.</p>
+                            </div>
+                        </div>
+                        <div class="experience__content ">
+                            <div class="experience__time ">
+                                <span class="experience__rounder "></span>
+                                <span class="experience__line "></span>
+                            </div>
+
+                            <div class="experience__data bd-grid ">
+                                <h3 class="experience__title ">Technicien Réseau </h3>
+                                <span class="experience__company ">Printemps 2017 | Xefi - Aubiere </span>
+                                <p class="experience__description ">Installation d'équipements réseaux et câblage. Résolutions d'incidents informatique sur site ou à distance ( SAV ). </p>
+                            </div>
+                        </div>
+                        <div class="experience__content ">
+                            <div class="experience__time ">
+                                <span class="experience__rounder "></span>
+
+                            </div>
+
+                            <div class="experience__data bd-grid ">
+                                <h3 class="experience__title ">Technicien fibre optique</h3>
+                                <span class="experience__company ">De 2007 à 2013 | Divers employeurs ( STA, Conjonxion, Darty )</span>
+                                <p class="experience__description ">Pose / Tirage de câbles en conduite souterraines ou en aérien.</p>
+                                <p class="experience__description ">Installation bôitiers de raccordements, raccordements et mesures sur fibre optique.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+                <!----------------INTERESTS-------------->
+                <section class="interests section " id="divers">
+                    <h2 class="section-title ">Interêts</h2>
+                    <div class="interests__container bd-grid ">
+                        <div class="interests__content ">
+                            <i class="fa-solid fa-laptop-code interests__icons"></i>
+                            <span class="interests__name ">Code</span>
+                        </div>
+                        <div class="interests__content ">
+                            <i class="fa-solid fa-book interests__icons"></i></i>
+                            <span class="interests__name ">Lecture</span>
+                        </div>
+                        <div class="interests__content ">
+                            <i class="fa-solid fa-basketball interests__icons"></i>
+                            <span class="interests__name ">Basketball</span>
+                        </div>
+                        <div class="interests__content ">
+                            <i class="fa-solid fa-gamepad interests__icons"></i>
+                            <span class="interests__name ">Retro-gaming</span>
+                        </div>
+                        <div class="interests__content ">
+                            <i class="fa-solid fa-chess interests__icons"></i>
+                            <span class="interests__name ">Echecs</span>
+                        </div>
+
+                    </div>
+                </section>
+
+
+                <!----SCROLL TOP-->
+                <a href="# " class="scrolltop " id="scroll-top ">
+                    <i class='bx bx-up-arrow-alt scrolltop__icon'></i>
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.8.0/html2pdf.bundle.min.js "></script>
+    <script src="assets/js/main.js "></script>
+</body>
+
+</html>
