@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
 :root {
     --header-height: 3rem;
     /*----Colors------*/
@@ -42,7 +43,7 @@ html {
 body.print-cv {
     --h2: 0.938rem;
     --h3: .875rem;
-    --normal: 0.813rem;
+    --normal: 0.81rem;
     --small: 0.75rem;
     --smaller: .688rem;
 }
@@ -52,6 +53,51 @@ body.print-cv {
     display: none;
 }
 
+.print-cv .home__img {
+    width: 100px;
+    height: 100px;
+}
+
+.print-cv .skills__name {
+    font-size: smaller;
+}
+
+
+.print-cv .skills.section .section-title,
+.print-cv .profil.section .section-title {
+    font-size: larger;
+    padding-top: 10px;
+}
+
+.print-cv .experience.section .section-title,
+.print-cv .profil.section .section-title {
+    font-size: larger;
+}
+
+.print-cv .education__rounder,
+.print-cv .experience__rounder {
+    width: 5px;
+    height: 5px;
+    margin-top: 0.6rem;
+}
+
+.print-cv .skills__secondary {
+    font-size: 0.85rem;
+}
+
+.print-cv .section {
+    padding: 1.26rem;
+}
+
+
+
+/* .print-cv .education__line,
+.print-cv .experience__line {
+    width: 5px;
+    height: 100%;
+} */
+
+/*
 .print-cv .section {
     padding: 1.5rem 0 .8rem;
     padding: 1.5rem 0 .8rem;
@@ -59,14 +105,11 @@ body.print-cv {
 
 .print-cv .resume__left,
 .print-cv .resume__right {
-    padding: 1.35rem 1rem;
+    padding: 1.3rem 1.1rem;
     margin-top: -8px;
 }
 
-.print-cv .home__img {
-    width: 100px;
-    height: 100px;
-}
+
 
 .print-cv .education__container,
 .print-cv .experience__container {
@@ -82,18 +125,9 @@ body.print-cv {
     margin-left: 10px;
 }
 
-.print-cv .education__rounder,
-.print-cv .experience__rounder {
-    width: 5px;
-    height: 5px;
-    margin-top: 0.6rem;
-}
 
-.print-cv .education__line,
-.print-cv .experience__line {
-    width: 0px;
-    height: 100%;
-}
+
+
 
 .print-cv .education__data,
 .print-cv .experience__data {
@@ -107,7 +141,7 @@ body.print-cv {
 
 .print-cv .skills__name {
     margin-bottom: var(--mb3);
-}
+} */
 
 
 /*-------------------------------- VARIABLES DARK THEME-----------------------*/
@@ -463,6 +497,15 @@ img {
     gap: 0.4;
 }
 
+.skills__secondary {
+    text-align: center;
+    font-style: italic;
+    margin-top: -5px;
+    margin-bottom: 7px;
+    font-size: 1.05rem;
+
+}
+
 .skills__name {
     display: flex;
     align-items: center;
@@ -537,46 +580,62 @@ img {
     body {
         margin: 3rem 0;
     }
+
     .bd-container {
         margin-left: auto;
         margin-right: auto;
     }
+
     .l-header,
     .scrolltop {
         display: none;
     }
+
     .resume {
         display: grid;
         grid-template-columns: .45fr 1fr;
         background-color: var(--container);
         box-shadow: 0 0 8px rgba(13, 12, 12, 0.15);
     }
+
     .resume__left {
         background-color: var(--container-alt);
     }
+
     .resume__left,
     .resume__right {
         padding: 15px 1.5rem;
     }
+
     .section-title,
     .profile__description {
         text-align: initial;
     }
+
     .home__container {
         gap: 1.5rem;
     }
+
     .home__button-movil {
         display: none;
     }
+
     .pdf {
         display: inline-block;
     }
+
     .references__container {
         grid-template-columns: repeat(2, 1fr);
     }
+
     .interests__container {
-        grid-template-columns: repeat(5, max-content);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 30px;
+        /* grid-template-columns: repeat(4, max-content);
         column-gap: 3.5rem;
-        margin-left: 20px;
+        margin-left: 20px; */
     }
+
 }
